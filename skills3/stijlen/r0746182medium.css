@@ -1,0 +1,43 @@
+body #container {
+    background-color: #171a21;
+    color: #42f450;
+}
+
+body {
+    background-color: black;
+    font-family: 'courier new', sans-serif;
+}
+
+nav ul a {
+    text-decoration: none;
+    background-color: black;
+    color: #42f450;
+    padding: 15px;
+    display: block;
+    border: 1px solid #42f450
+}
+
+nav li a:hover {
+    text-decoration: underline;
+    background-color: white;
+    color: black;
+    background-image: url(../afbeeldingen/icoontje.png);
+    background-repeat: no-repeat;
+    background-position: 95% 50%;
+}
+
+#image {
+    background-image: url(../afbeeldingen/gamers.jpg)
+}
+
+#primair {
+    display: none;
+}
+
+#luxe {
+    display: none;
+}
+
+#gaming {
+    display: inline;
+}
